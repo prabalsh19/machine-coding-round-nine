@@ -1,0 +1,58 @@
+.single-video-container {
+  flex: 1;
+}
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.video-details {
+  display: flex;
+  justify-content: space-between;
+}
+.video-details > * {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.video-details svg {
+  cursor: pointer;
+}
+.single-video-container hr {
+  margin: 20px 0;
+}
+.video-page {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.suggestion-vid h4 {
+  margin-top: 0;
+}
+.suggestion-vid img {
+  width: 200px;
+}
+.horizontal-card {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  color: #509ecf;
+}
+.playlist-btn {
+  position: relative;
+}
+.notes-container {
+  display: flex;
+  flex-direction: column;
+}
+.note {
+  display: flex;
+  justify-content: space-between;
+}
+.note svg {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.note-actions {
+  position: relative;
+}

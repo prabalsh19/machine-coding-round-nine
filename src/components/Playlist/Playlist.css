@@ -1,0 +1,26 @@
+.playlist {
+  flex: 1;
+}
+.close-btn {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  margin: 0;
+  line-height: 1;
+  cursor: pointer;
+}
+.playlist-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.add-playlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+.add-playlist svg {
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.addToPlaylistModal {
+  position: absolute;
+  right: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
+  background: white;
+}
+.addToPlaylistModal > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.addToPlaylistModal > form > button {
+  padding: 5px 10px;
+  background: #509ecf;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.playlist-name {
+  cursor: pointer;
+}

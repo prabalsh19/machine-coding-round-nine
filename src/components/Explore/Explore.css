@@ -1,0 +1,18 @@
+.explore {
+  flex: 1;
+}
+.search {
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-weight: bolder;
+}
+.explore-vid-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

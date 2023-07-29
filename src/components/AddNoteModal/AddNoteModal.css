@@ -1,0 +1,24 @@
+.addNoteModal {
+  position: absolute;
+  right: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
+  background: white;
+}
+.addNoteModal > form > button {
+  padding: 5px 10px;
+  background: #509ecf;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addNoteModal > form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.addNoteModal > form > input {
+  padding: 5px;
+}
